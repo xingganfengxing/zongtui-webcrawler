@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.zongtui</groupId>
-	<artifactId>webcrawle1r</artifactId>
+	<artifactId>webcrawler</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<url>http://maven.apache.org</url>
@@ -17,13 +17,14 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
-<!-- 	<modules>
+	<modules>
 		<module>webcrawler-core</module>
 		<module>webcrawler-sourceer</module>
 		<module>webcrawler-pipeline</module>
 		<module>webcrawler-plugin</module>
+		<module>webcrawler-downloader</module>
 		<module>webcrawler-scheduler</module>
 		<module>webcrawler-web</module>
     	<module>webcrawler-dao</module>
-  </modules> -->
+  </modules>
 </project>
